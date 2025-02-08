@@ -3,6 +3,14 @@
 # Description: This module is used to get a joke from the pyjokes library.
 
 import pyjokes
-
+print("Cooking up a joke for you...")
 joke = pyjokes.get_joke()
 print(joke)
+
+"""
+This is a multi-line comment
+
+tuta huwa saaz hu mai
+
+"""
+
