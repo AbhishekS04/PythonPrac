@@ -1,1 +1,8 @@
 chapter 1 is module comments and pip
+prac set chapter 1
+
+Q1.write a prog to print twinkel twinkel little star poem
+Q2.use repl and print the table of 5 using it
+Q3.install an external module and use it to perform an operation of your intrest
+Q4.write a python prog to print the constents of a directory using os module search online for the function which does that
+Q5.lable the prog written in problem 4 with comments
