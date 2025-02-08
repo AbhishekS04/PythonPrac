@@ -6,3 +6,7 @@ Q2.use repl and print the table of 5 using it
 Q3.install an external module and use it to perform an operation of your intrest
 Q4.write a python prog to print the constents of a directory using os module search online for the function which does that
 Q5.lable the prog written in problem 4 with comments
+
+
+chapter 2 (variable and datatype)
+
