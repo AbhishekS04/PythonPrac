@@ -5,3 +5,4 @@ d= False # boolean
 e=None # NoneType
 
 print("the sum is:", a + b)
+print(name)
