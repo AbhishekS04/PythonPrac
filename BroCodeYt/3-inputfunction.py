@@ -26,34 +26,50 @@
 
 # ! Exercise 2 = shopping cart program
 
-product="The available products are: \n1. Apple\n2. Banana "
-print(product)
-item=(("Ypu want to shop?"))
-item=input("Make a choice: \n1. Yes \n2. No\n")
-if item=="1":
-    print("You can shop now!")
-else:
-    print("Thank you for visiting!")
-    exit()
-case1 = "Apple"
-case2 = "Banana"
-price1 = 10 
-price2 = 5   
+# product="The available products are: \n1. Apple\n2. Banana "
+# print(product)
+# item=(("Ypu want to shop?"))
+# item=input("Make a choice: \n1. Yes \n2. No\n")
+# if item=="1":
+#     print("You can shop now!")
+# else:
+#     print("Thank you for visiting!")
+#     exit()
+# case1 = "Apple"
+# case2 = "Banana"
+# price1 = 10 
+# price2 = 5   
 
-buy = input("Enter the product number (1 for Apple, 2 for Banana): ")
-if buy == "1":
-    print(f"You have selected {case1}")
-    price = price1
-elif buy == "2":
-    print(f"You have selected {case2}")
-    price = price2
-else:
-    print("Invalid selection")
-    exit()
+# buy = input("Enter the product number (1 for Apple, 2 for Banana): ")
+# if buy == "1":
+#     print(f"You have selected {case1}")
+#     price = price1
+# elif buy == "2":
+#     print(f"You have selected {case2}")
+#     price = price2
+# else:
+#     print("Invalid selection")
+#     exit()
 
-quantity = int(input("Enter the quantity: "))
+# quantity = int(input("Enter the quantity: "))
 
-total_amount = quantity * price
-print(f"The total amount is {total_amount}")
+# total_amount = quantity * price
+# print(f"The total amount is {total_amount}")
 
-print("Thank you for shopping with us!")
+# print("Thank you for shopping with us!")
+
+
+# ! Exercise 3 = MADLIBS GAME
+
+# word game where you create a story by filling in the blanks with random words
+
+adjective1 = input("Enter an adjective: ")
+noun1 = input("Enter a noun: ")
+adjective2 = input("Enter an adjective: ")
+verb1 = input("Enter a verb: ")
+adjective3 = input("Enter an adjective: ")
+
+print(f"Today i went to {adjective1} zoo.")
+print(f"In an exhibition, I saw a {noun1}")
+print(f"{noun1} was {adjective2} and {verb1}")
+print(f"I was {adjective3}!")
