@@ -28,7 +28,7 @@
 
 product="The available products are: \n1. Apple\n2. Banana "
 print(product)
-item=(input("Enter the product you want to buy out products: "))
+item=(("Ypu want to shop?"))
 item=input("Make a choice: \n1. Yes \n2. No\n")
 if item=="1":
     print("You can shop now!")
