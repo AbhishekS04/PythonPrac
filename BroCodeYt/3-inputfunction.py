@@ -63,13 +63,31 @@
 
 # word game where you create a story by filling in the blanks with random words
 
-adjective1 = input("Enter an adjective: ")
-noun1 = input("Enter a noun: ")
-adjective2 = input("Enter an adjective: ")
-verb1 = input("Enter a verb: ")
-adjective3 = input("Enter an adjective: ")
+# adjective1 = input("Enter an adjective: ")
+# noun1 = input("Enter a noun: ")
+# adjective2 = input("Enter an adjective: ")
+# verb1 = input("Enter a verb: ")
+# adjective3 = input("Enter an adjective: ")
 
-print(f"Today i went to {adjective1} zoo.")
-print(f"In an exhibition, I saw a {noun1}")
-print(f"{noun1} was {adjective2} and {verb1}")
-print(f"I was {adjective3}!")
+# print(f"Today i went to {adjective1} zoo.")
+# print(f"In an exhibition, I saw a {noun1}")
+# print(f"{noun1} was {adjective2} and {verb1}")
+# print(f"I was {adjective3}!")
+
+# ! Exercise 4 = BMI Calculator
+
+weight = float(input("Enter your weight in kg: "))
+height = float(input("Enter your height in cm: "))
+height = height / 100
+bmi = (weight / (height * height))
+print(f"Your hight in cm is: {height}")
+print(f"Your BMI is: {bmi:.2f}")
+
+if bmi < 18.5:
+    print("You are underweight")
+elif bmi >= 18.5 and bmi < 25:
+    print("You are normal weight")
+elif bmi >= 25 and bmi < 30:
+    print("You are overweight")
+else:
+    print("You are obese")
