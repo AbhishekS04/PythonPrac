@@ -50,6 +50,14 @@ import math
 
 # !
 
-radius = float(input("Enter the radius of the circle: "))
-area = math.pi * math.pow(radius,2)
-print(round(area,2))
+# radius = float(input("Enter the radius of the circle: "))
+# area = math.pi * math.pow(radius,2)
+# print(round(area,2))
+
+# !
+
+a = float(input("Enter the value of a: "))
+b = float(input("Enter the value of b: "))
+
+c=math.sqrt( pow(a,2)+pow(b,2))
+print(f"Side c= {c}")
