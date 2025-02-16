@@ -3,10 +3,16 @@ friend=2
 # friend +=
 
 # friend = friend -1
-friend -= 1
+# friend -= 1
+
+# friend = friend * 2
+# friend *= 2
+
+# friend = friend / 2
+# friend /= 2
 
 
-print(friend)
+print(int(friend))
 
 
 
